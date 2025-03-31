@@ -1,0 +1,6 @@
+genericUtility\BaseClass.class
+objectRepo\LoginPage.class
+objectRepo\HomePage.class
+genericUtility\PropertiesUtility.class
+genericUtility\SeleniumUtility.class
+genericUtility\ExcelUtility.class
