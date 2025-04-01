@@ -73,13 +73,13 @@ public class ExcelUtility {
 	 * @throws Exception
 	 */
 	public void writeDataToExcelFile(String sheetName,int rowIndex,int cellIndex,String value) throws Exception {
-		FileInputStream fis = new FileInputStream("‪C:\\Users\\SiriG\\Downloads\\Animal.xlsx");
+		FileInputStream fis = new FileInputStream("‪‪‪D:\\Animal.xlsx");
 		Workbook wb = WorkbookFactory.create(fis);
 		Sheet sh=wb.getSheet(sheetName);
 		Row r=sh.createRow(rowIndex);
 		Cell c=r.createCell(cellIndex);
 		c.setCellValue(value);
-		FileOutputStream fos = new FileOutputStream("‪C:\\Users\\SiriG\\Downloads\\Animal.xlsx");
+		FileOutputStream fos = new FileOutputStream("‪D:\\Animal.xlsx");
 		wb.write(fos);
 		
 	}
